@@ -1,0 +1,31 @@
+{
+  "name": "learning-socket-io",
+  "version": "1.0.0",
+  "description": "My funkadelic Nuxt.js project",
+  "author": "Seryoga",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "nuxt": "^2.4.0",
+    "socket.io": "^4.7.2",
+    "vue-socket.io": "^3.0.10",
+    "vuetify": "^1.5.0",
+    "vuetify-loader": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "nodemon": "^1.18.9",
+    "prettier": "1.14.3",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
